@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clicker!</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body id="body-element">
+    <div class="home-contents" id="home-contents">
+      <h1>Clicker!</h1>
+      <h2 id="greeting-h2"></h2>
+
+      <ion-icon name="grid-outline" id="menu-button" class="menu-button"
+        >Menu</ion-icon
+      >
+      <div class="black-bar">
+        <canvas></canvas>
+      </div>
+      <div class="container">
+        <p id="counter" class="counter">0</p>
+        <div class="container-button">
+          <button id="click-button">CLICK</button>
+        </div>
+      </div>
+      <div class="black-bar">
+        <canvas></canvas>
+      </div>
+      <div class="upgrades-menu">
+        <section id="section-upgrades">
+          <div class="upgrades-titles">
+            <div class="inactive-upgrade-title">
+              <h2>Upgrades:</h2>
+            </div>
+            <div class="active-upgrade-title">
+              <h2>Active Upgrades:</h2>
+            </div>
+          </div>
+
+          <div class="upgrade-contents-active-inactive">
+            <div class="upgrade-buttons">
+              <div class="upgrade-button-one" id="button-one-container">
+                <button id="10-5Button">10 Every 5 Seconds</button>
+              </div>
+              <div class="upgrade-button-two">
+                <button id="50-2Button">50 Every 2 Seconds</button>
+              </div>
+            </div>
+            <div class="active-upgrades">
+              <ul id="active-upgrades"></ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="menu-div" id="menu-div">
+      <button id="news-button">News</button>
+      <button id="help-button">Help</button>
+      <button id="about-button">About</button>
+      <button id="account-button">Account</button>
+      <div class="in-menu-button">
+        <ion-icon name="grid-outline" id="in-menu-button" class="in-menu-button"
+          >Menu</ion-icon
+        >
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" src="home.js"></script>
+    <script type="module" src="menu.js"></script>
+  </body>
+</html>

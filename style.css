@@ -1,0 +1,31 @@
+h1 {
+  color: black;
+  font-size: 50px;
+}
+
+body {
+  background-color: azure;
+}
+
+button {
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: aqua;
+  width: 90px;
+  height: 40px;
+}
+
+button:hover {
+  transition: 1s ease-in-out;
+  background-color: rgb(124, 232, 232);
+}
+
+input {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+}

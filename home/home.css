@@ -1,0 +1,184 @@
+.hide {
+  display: none;
+  transition: opacity 0.3s ease; /* Add a smooth transition effect on opacity */
+}
+
+.active-upgrades li {
+  font-size: 2vw;
+}
+
+.black {
+  background-color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 50px;
+  margin-left: 2.5vw;
+}
+
+h2 {
+  font-size: 30px;
+  margin-left: 2.5vw;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 8vh;
+  right: 5vw;
+}
+
+ion-icon {
+  /* MENU BUTTON */
+  font-size: 8vh;
+}
+
+.black-bar canvas {
+  background-color: black;
+  width: 100vw;
+  height: 0.5vh;
+  margin-bottom: 0px;
+}
+
+.black-bar {
+  margin-bottom: 0px;
+}
+
+body {
+  background-color: rgb(168, 223, 242);
+  margin: 0;
+}
+
+.container {
+  height: 70vh;
+  width: 100vw;
+  background-color: rgb(175, 228, 228);
+  display: flex;
+  flex-direction: column; /* Stack flex items vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center; /* Center horizontally */
+  border-radius: 5px;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 8vw;
+}
+
+.container-button {
+  height: 90vh;
+  width: 100vw;
+  background-color: rgb(175, 228, 228);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 5px 5px 5px 5px;
+}
+
+.container button {
+  padding: 5vh 5vw;
+  background-color: rgb(95, 143, 159);
+  border-radius: 5px;
+  border: none;
+  transition: padding 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container button:hover {
+  transition: 1s ease-in-out;
+  padding: 5vw 5.02vw;
+  background-color: rgb(79, 122, 136);
+}
+
+.menu-div {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.menu-div button {
+  display: flex;
+  margin-left: 3vw;
+  padding: 2vh 2vw;
+  height: 4vw;
+  width: 10vw;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  background-color: rgba(17, 176, 224, 0.755);
+  color: black;
+  border-radius: 5px;
+  transition: height 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  font-size: 1.5vw;
+  border-color: rgb(15, 210, 227);
+}
+
+.menu-div button:hover {
+  transition: 0.3s ease-in-out;
+  height: 4vw;
+  width: 11vw;
+  background-color: rgb(154, 236, 236);
+  border-radius: 12px;
+}
+
+.in-menu-button {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 4vh;
+  right: 3vw;
+}
+
+.in-menu-button ion-icon {
+  font-size: 8vh;
+  color: rgb(60, 152, 233);
+}
+/* UPGRADES */
+
+.upgrade-buttons button {
+  display: flex;
+  margin-left: 3vw;
+  padding: 2vh 2vw;
+  height: 4vw;
+  width: 10vw;
+  margin-bottom: 3vw;
+  margin-top: 3vw;
+  background-color: rgba(120, 216, 246, 0.755);
+  color: black;
+  border-radius: 5px;
+  transition: height 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  font-size: 1vw;
+  border-color: rgb(0, 0, 0);
+}
+
+.upgrade-buttons button:hover {
+  transition: 0.3s ease-in-out;
+  height: 4vw;
+  width: 11vw;
+  background-color: rgb(144, 232, 232);
+  border-radius: 12px;
+}
+
+.upgrade-contents-active-inactive {
+  display: flex;
+  flex-direction: row; /* Change from column to row */
+}
+
+.upgrade-buttons {
+  width: 55vw;
+}
+
+.upgrades-titles {
+  display: flex;
+  flex-direction: row;
+}
+
+.inactive-upgrade-title {
+  width: 50vw;
+}
